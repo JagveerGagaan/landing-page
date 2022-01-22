@@ -1,0 +1,177 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: #eeeeee;
+  margin: 1rem 0.5rem;
+}
+
+#header {
+  /* border: 2px solid blue; */
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+#header-img {
+  /* border: 2px solid red; */
+  width: 20rem;
+}
+
+#nav-bar {
+  /* border: 2px solid yellow; */
+  align-self: center;
+}
+
+.nav-link {
+  /* border: 2px solid green; */
+  margin: 0vw 4vw;
+  color: black;
+}
+
+#form {
+  text-align: center;
+}
+
+#form h2 {
+  margin: 8rem 0 2.5rem 0;
+}
+
+#email {
+  font-size: 0.8rem;
+  width: 20rem;
+  padding: 0.4rem 0.2rem;
+}
+
+#submit {
+  border: 0;
+  background-color: rgb(255, 192, 74);
+  margin-top: 1.5rem;
+  font-size: large;
+  font-weight: bold;
+  padding: 0.2rem 1rem 0.2rem 1rem;
+}
+
+#submit:hover {
+  cursor: pointer;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  background-color: orange;
+}
+
+#details {
+  /* border: 2px solid blue; */
+  margin-top: 5rem;
+}
+
+.item {
+  /* border: 2px dashed red; */
+  display: flex;
+}
+
+.logo_img {
+  /* border: 2px solid yellow; */
+  width: 10rem;
+}
+
+.align_it {
+  /* border: 2px solid green; */
+  margin: auto 0.5rem;
+}
+
+#video {
+  /* border: 2px solid red; */
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 300px;
+}
+
+#pricetag {
+  /* border: 2px solid blue; */
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.price_section {
+  border: 1px solid black;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.heading {
+  background-color: #dddddd;
+  padding: 1rem 3.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+strong {
+  font-size: larger;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+button {
+  border: 1px solid yellow;
+  border-radius: 5px;
+  background-color: yellow;
+  margin: 1rem 0;
+  font-size: large;
+  padding: 0.4rem 1rem;
+}
+
+#footer {
+  margin-top: 3rem;
+  background-color: #dddddd;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
+}
+
+#footer_nav,
+#footer p {
+  margin: 0.5rem 1rem;
+}
+
+#footer p {
+  font-size: small;
+  opacity: 0.8;
+}
+
+#footer_nav a {
+  margin: 0 0.4rem;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Media query */
+
+@media only screen and (max-width: 900px) {
+  #pricetag {
+    display: flex;
+    flex-flow: column;
+    align-items: inherit;
+    margin: 0rem 1rem;
+  }
+
+  .price_section {
+    margin: 0.5rem 5.9rem 1rem 5.9rem;
+  }
+}
